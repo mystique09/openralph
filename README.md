@@ -54,7 +54,7 @@ openralph --prompt plan.md
 ```
 
 This runs the agent with the default settings:
-- Max iterations: 1
+- Max iterations: 10
 - Completion phrase: `DONE`
 - Sleep between iterations: 2 seconds
 
