@@ -16,7 +16,7 @@ where
 {
     #[arg(short, long)]
     prompt: PathBuf,
-    #[arg(short = 'n', long, default_value_t = 1)]
+    #[arg(short = 'n', long, default_value_t = 10)]
     max_iterations: u16,
     #[arg(short, long, default_value_t = Cow::Borrowed("DONE"))]
     completion: Cow<'a, str>,
